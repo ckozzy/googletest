@@ -46,3 +46,5 @@
 #include "src/gtest-printers.cc"
 #include "src/gtest-test-part.cc"
 #include "src/gtest-typed-test.cc"
+
+//__declspec(dllexport) int PullInMyLibrary() { return 0; }
