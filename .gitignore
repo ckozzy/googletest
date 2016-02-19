@@ -6,3 +6,6 @@ win32/
 *.dir
 *.vcxproj
 *.sdf
+googletest-distribution.opensdf
+googlemock/gtest/Debug/
+googlemock/gtest/Debug/
