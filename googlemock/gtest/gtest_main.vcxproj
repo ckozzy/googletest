@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -57,25 +57,25 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup>
-    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\google\googlemock\gtest\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gtest_main.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gtest_main</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\google\googlemock\gtest\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gtest_main.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gtest_main</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\google\googlemock\gtest\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gtest_main.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gtest_main</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\google\googlemock\gtest\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gtest_main.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gtest_main</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
-  </PropertyGroup>
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\google\googlemock\gtest\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gtest_main.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\google\googlemock\gtest\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gtest_main.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\google\googlemock\gtest\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gtest_main.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\google\googlemock\gtest\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gtest_main.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">gtest_main</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+    </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <AdditionalOptions> -J %(AdditionalOptions)</AdditionalOptions>
@@ -237,7 +237,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\google\googlemock\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/google/googletest/CMakeLists.txt</Message>
@@ -250,7 +250,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\google\googlemock\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/google/googletest/CMakeLists.txt</Message>
@@ -263,7 +263,7 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\google\googlemock\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/google/googletest/CMakeLists.txt</Message>
@@ -276,13 +276,13 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.c.in;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/google/googletest/CMakeLists.txt;D:\google\googletest\CMakeLists.txt;D:\google\googletest\cmake\internal_utils.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPythonInterp.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindThreads.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckLibraryExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckSymbolExists.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CheckIncludeFile.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\FindPackageMessage.cmake;C:\Program Files (x86)\CMake\share\cmake-3.5\Modules\CMakeParseArguments.cmake;D:\google\googletest\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\google\googlemock\gtest\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\google\googletest\src\gtest_main.cc" />
+    <ClCompile Include="D:\google\googletest\src\gtest_main.cc"  />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:/google/ZERO_CHECK.vcxproj">
